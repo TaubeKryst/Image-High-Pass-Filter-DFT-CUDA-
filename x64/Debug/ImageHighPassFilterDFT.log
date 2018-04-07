@@ -1,0 +1,85 @@
+﻿Build started 08.04.2018 00:34:08.
+     1>Project "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\ImageHighPassFilterDFT.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I. /FIcuda_runtime.h /c "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\kernel.cu" 
+     1>Project "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\ImageHighPassFilterDFT.vcxproj" (1) is building "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\ImageHighPassFilterDFT.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Krystian\AppData\Local\Temp\tmpc8d8d36ff8d14325b5f52203e2e13828.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\kernel.cu"
+         
+         C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\kernel.cu" 
+     1>c:\users\krystian\desktop\git programy\image high-pass filter\imagehighpassfilterdft\EasyBMP.cpp(994): warning : variable "ZeroWORD" was declared but never referenced
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(87): warning : variable "N" was declared but never referenced
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(276): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(283): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(289): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(295): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(301): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(308): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(314): warning : transfer of control bypasses initialization of:
+     1>c:\users\krystian\desktop\git programy\image high-pass filter\imagehighpassfilterdft\EasyBMP.cpp(994): warning : variable "ZeroWORD" was declared but never referenced
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(87): warning : variable "N" was declared but never referenced
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(276): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(283): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(289): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(295): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(301): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(308): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(314): warning : transfer of control bypasses initialization of:
+         kernel.cu
+     1>c:\users\krystian\desktop\git programy\image high-pass filter\imagehighpassfilterdft\EasyBMP.cpp(994): warning C4101: 'ZeroWORD': unreferenced local variable
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(87): warning C4101: 'N': unreferenced local variable
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(210): warning C4244: '=': conversion from 'double' to 'ebmpBYTE', possible loss of data
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(211): warning C4244: '=': conversion from 'double' to 'ebmpBYTE', possible loss of data
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(212): warning C4244: '=': conversion from 'double' to 'ebmpBYTE', possible loss of data
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(249): warning C4244: '=': conversion from 'double' to 'ebmpBYTE', possible loss of data
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(250): warning C4244: '=': conversion from 'double' to 'ebmpBYTE', possible loss of data
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(251): warning C4244: '=': conversion from 'double' to 'ebmpBYTE', possible loss of data
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): warning C4533: initialization of 'blokSize' is skipped by 'goto Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+     1>C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): warning C4533: initialization of 'gridSize' is skipped by 'goto Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(318): note: see declaration of 'blokSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(317): note: see declaration of 'gridSize'
+         C:/Users/Krystian/Desktop/Git programy/image high-pass filter/ImageHighPassFilterDFT/kernel.cu(353): note: see declaration of 'Error'
+     1>Done Building Project "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\ImageHighPassFilterDFT.vcxproj" (CudaBuildCore target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\ImageHighPassFilterDFT.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\ImageHighPassFilterDFT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\ImageHighPassFilterDFT.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         ImageHighPassFilterDFT.vcxproj -> C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\ImageHighPassFilterDFT.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\Krystian\Desktop\Git programy\image high-pass filter\ImageHighPassFilterDFT\ImageHighPassFilterDFT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.30
