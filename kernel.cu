@@ -4,11 +4,11 @@
 #include <stdio.h>
 #include <exception>
 #include <fstream>
-#include "EasyBMP.h"
-#include "EasyBMP.cpp"
-#include "EasyBMP_DataStructures.h"
-#include "EasyBMP.h"
-#include "EasyBMP_VariousBMPutilities.h"
+#include "EasyBMP/EasyBMP.h"
+#include "EasyBMP/EasyBMP.cpp"
+#include "EasyBMP/EasyBMP_DataStructures.h"
+#include "EasyBMP/EasyBMP.h"
+#include "EasyBMP/EasyBMP_VariousBMPutilities.h"
 #ifndef __CUDACC__ 
 #define __CUDACC__
 #endif
